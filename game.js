@@ -25,7 +25,7 @@ buttonHolder.addEventListener('click', e=>{
     if(currentProgress == 100)
     {
         modal.style.visibility = `visible`;
-        transparentbg.style.opacity = `0.3`;
+        transparentbg.style.opacity = `0.2`;
     }
 
     buttonStartAgain.addEventListener('click', e=>{
