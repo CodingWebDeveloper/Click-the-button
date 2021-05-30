@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+:root{
+    background-color: rgb(51, 61, 94);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nova Square', cursive;
+}
+
+.container{
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 75px;
+    text-decoration: none;
+    text-align: center;
+}
+.main-text-holder{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+#btn{
+    position: absolute;
+    font-size: 1.4rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem 0;
+    width: 20.5rem;
+    border-radius: 10px;
+    margin-top: 10rem;
+    margin-right: 50px;
+    background: linear-gradient(-20deg, rgb(160, 8, 127), 50%, rgb(69, 67, 153));
+}
+
+#btn:hover{
+    cursor:pointer; 
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(160, 8, 127);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#progressBar{
+    position: absolute;
+    height: 5rem;
+    width: 50rem;
+    border:0.4rem solid rgb(160, 8, 127);
+    border-radius: 50px;
+    margin-top: 35rem;
+    overflow: hidden;
+}
+
+#progressBarFull{
+    height: 5rem ;
+    background: rgb(156, 79, 207);
+    width: 0%;
+    transition: width 450ms;
+}
+
+.modal{
+    background:linear-gradient(40deg, rgb(173, 70, 118), 50%, rgb(101, 91, 196));
+    padding:6.9rem;
+    margin: 10rem;
+    position: absolute;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    visibility: hidden;
+}
+
+.modal-text{
+    margin-bottom: 5.5rem;
+    font-size:30px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+#btn-start-again{
+    padding: 1.6rem;
+    width: 20rem;
+    margin-top:17rem ;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background: linear-gradient(-20deg, rgb(49, 57, 128), 50%, rgb(216, 52, 153));
+}
+
+#btn-start-again:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1.4rem rgb(92, 8, 160);
+    transition: transform 150ms;
+}
+
+.transparent-bg{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+
+
+
